@@ -1,8 +1,9 @@
-import java.util.Date; 
+import java.util.Date;
+import java.util.List; 
 
 public class User {
     private Date birthdate;
-    private Number size;
-    private Photo[] photos;
+    private int size;
+    private List<Photo> photos;
     private Address address; 
 }
